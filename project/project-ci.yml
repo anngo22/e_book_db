@@ -59,3 +59,5 @@ ddl scripts:
     - echo -e "${LIGHT_RED}>>> Task 3. DDL queries <<<${NO_COLOUR}"
     - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/create_scripts.sql" --cat
     - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/insert_scripts.sql" --cat
+    - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/select.sql" --cat
+    - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/view.sql" --cat
