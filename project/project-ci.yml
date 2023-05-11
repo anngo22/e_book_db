@@ -61,3 +61,4 @@ ddl scripts:
     - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/insert_scripts.sql" --cat
     - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/select.sql" --cat
     - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/view.sql" --cat
+    - python3 ${PYPSQL} --file="${SCRIPTS_DIR}/indexes_functions_triggers.sql" --cat
